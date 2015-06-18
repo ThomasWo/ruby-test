@@ -1,0 +1,15 @@
+<table>
+	<tr>
+		<th>Name</th>
+		<th>Message</th>
+	</tr>
+	<% @helloWorld.each do |h| %>
+		<tr>
+		<td><%= h.name %></td>
+		<td><%= link_to h.message, hello_world_path(h) %></td>
+		</tr>
+	<% end %>
+
+	<%= link_to 'Create New Hello', new_hello_world_path %>
+</table>
+

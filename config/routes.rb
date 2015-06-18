@@ -53,8 +53,9 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-	root 'hello_world#show'
-	get '/hello_world', to: 'hello_world#show'
+	root 'hello_world#index'
 
+	resources :hello_world
+	post '/hello_world/new' => redirect('/hello_world')
 
 end
