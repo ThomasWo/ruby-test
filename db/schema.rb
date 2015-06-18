@@ -11,7 +11,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150618024935) do
+ActiveRecord::Schema.define(version: 20150618143015) do
+
+  create_table "courses", force: :cascade do |t|
+    t.string   "deptName"
+    t.string   "description"
+    t.boolean  "hasLab"
+    t.string   "courseNumber"
+    t.decimal  "loadHours"
+    t.decimal  "semesterHours"
+    t.string   "format"
+    t.string   "note"
+    t.decimal  "fee"
+    t.string   "title"
+    t.string   "courseColleagueId"
+    t.string   "courseSubject"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+  end
 
   create_table "hello_worlds", force: :cascade do |t|
     t.string   "name"

@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'course/index'
+
+  get 'course/show'
+
+  get 'course/new'
+
   get 'welcome/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -58,6 +64,7 @@ Rails.application.routes.draw do
 	root 'welcome#index'
 
 	resources :hello_world
+	resources :course
 	post '/hello_world/new' => redirect('/hello_world')
 
 end
