@@ -47,5 +47,7 @@ group :development, :test do
 
   gem 'capybara'
 
+  gem 'rake'
+
 end
 
