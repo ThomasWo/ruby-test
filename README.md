@@ -1,3 +1,3 @@
-[![Build Status](img.shields.io/travis/ThomasWo/ruby-test/master.svg)](https://travis-ci.org/ThomasWo/ruby-test)
+[![Build Status](https://travis-ci.org/ThomasWo/ruby-test.svg?branch=master)](https://travis-ci.org/ThomasWo/ruby-test)
 
 
