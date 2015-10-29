@@ -43,5 +43,9 @@ group :development, :test do
   gem 'spring'
 
   gem 'formtastic', '~> 3.0'
+  gem 'rspec-rails'
+
+  gem 'capybara'
+
 end
 
