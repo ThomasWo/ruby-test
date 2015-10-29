@@ -1,0 +1,15 @@
+<%= form_for :hello_world do |h| %>
+  <p>
+    <%= h.label :name %><br>
+    <%= h.text_field :name %>
+  </p>
+ 
+  <p>
+    <%= h.label :message %><br>
+    <%= h.text_area :message %>
+  </p>
+ 
+  <p>
+    <%= h.submit %>
+  </p>
+<% end %>

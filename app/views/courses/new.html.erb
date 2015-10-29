@@ -1,0 +1,17 @@
+<h1>Course#new</h1>
+<%= form_for @course do |c| %>
+	<%= c.label :title %>
+	<%= c.text_field :title %>
+<br>
+	<%= c.label :deptName %>
+	<%= c.text_field :deptName %>
+<br>
+	<%= c.label :courseNumber %>
+	<%= c.text_field :courseNumber %>
+
+
+	
+  <p>
+	<%= c.submit %>
+  </p>
+<% end %>

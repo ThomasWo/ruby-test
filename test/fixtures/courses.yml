@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  deptName: MyString
+  description: MyString
+  hasLab: false
+  courseNumber: MyString
+  loadHours: 9.99
+  semesterHours: 9.99
+  format: MyString
+  note: MyString
+  fee: 9.99
+  title: MyString
+  courseColleagueId: MyString
+  courseSubject: MyString
+
+two:
+  deptName: MyString
+  description: MyString
+  hasLab: false
+  courseNumber: MyString
+  loadHours: 9.99
+  semesterHours: 9.99
+  format: MyString
+  note: MyString
+  fee: 9.99
+  title: MyString
+  courseColleagueId: MyString
+  courseSubject: MyString
