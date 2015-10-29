@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ThomasWo/ruby-test.svg)](https://travis-ci.org/ThomasWo/ruby-test)
+[![Build Status](http://img.shields.io/travis/ThomasWo/ruby-test/master.svg)](https://travis-ci.org/ThomasWo/ruby-test)
 
 == README
 
