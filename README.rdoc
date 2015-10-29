@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ThomasWo/ruby-test.svg)](https://travis-ci.org/ThomasWo/ruby-test)
+
 == README
 
 This README would normally document whatever steps are necessary to get the
